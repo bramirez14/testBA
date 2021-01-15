@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Factorial</title>
+</head>
+<body>
+<div class='container'>
+    <button class='boton' onclick="calcularFactorial()"> Calcular el factorial </div>
+    </button>
+</body>
+</html>
+
+<script>
+    let calcularFactorial=()=>{
+    let numero = prompt('Ingresa un numero')
+    let total=1
+    for (let i = 1; i <= numero ; i++) {
+    total = total*i;
+    }
+    alert (`El factorial del numero ${numero} es: ${total} `)   
+    }
+</script>
+
+<style>
+.container{
+
+  text-align: center;
+  margin-top:100px;
+}
+.boton{
+    text-decoration: none;
+ 
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+</style>
+
+
+

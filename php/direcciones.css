@@ -1,0 +1,46 @@
+ #titulo{
+   text-align: center;
+ }
+  #text{
+    text-align: center;
+    margin-top:20px
+  }
+ #search {
+  font-size: 0;
+  line-height:0;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+#search #search-box,
+#search #search-btn {
+   display: inline-block;
+  line-height: 20px;
+  font-size: 20px;
+  -webkit-appearance: none;
+  margin: 0;
+  border:0;
+  outline: none;
+    height: 46px;
+    border: 4px solid #aba;
+  box-sizing: border-box;
+  vertical-align: top;
+  line-height: 30px;
+  font-size: 18px;
+}
+#search #search-box {
+  border-right:0;
+border-radius: 4px 0 0 4px;
+  width: calc(100% - 140px);
+    padding: 4px 10px;
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 0 auto;  
+}
+#search #search-btn {
+  background: #33A558;
+  color: white;
+  width: 140px;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+}

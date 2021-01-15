@@ -1,0 +1,9 @@
+SQL 
+1.SELECT email,dominio FROM taxista
+WHERE  dominio IS NULL 
+
+2.SELECT COUNT(estado) FROM viaje
+4.SELECT taxista.email, cliente.email FROM viaje 
+INNER JOIN taxista on idTaxista = taxista.id
+INNER JOIN  cliente on idCliente = cliente.id
+

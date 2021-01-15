@@ -1,0 +1,13 @@
+primero  hacemos  un revert con : $ git revert y el nombre del commit  q queremos revertir.
+Luego para hacer un deploy en produccion guardamos los cambios realizados con  : $ git add . si queremos para verificar que  se guardo nuestros cambios hacemos $git status despues... hacemos un commit on el nommbre  que mejor nos resulte para reconocer nuestro ultimos cambios realizados $commit -m'v1.2.0' de nuevo para verificar nuestro commit  podemos hacer un $ git log (para salir de git log con q )
+paso  final $ git push origin master.  
+
+Solo pasos
+$ git revert efdr8b
+despues de hacer los cambios...
+$ git add .
+$ git status 
+$ git commit -m'nombre que mejor nos parezca'
+$ git push origin master  
+
+
